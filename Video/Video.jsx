@@ -1,7 +1,7 @@
 import React from 'react';
-import "./MyVideo.scss"
+import "./Video.scss"
 
-const MyVideo = ({src, width, height}) => {
+const Video = ({src, width, height}) => {
     return(
         <div class="video-container">
             <video width={width} height={height} controls autoplay muted>
@@ -12,4 +12,4 @@ const MyVideo = ({src, width, height}) => {
     );
 }
 
-export default MyVideo;
+export default Video;
